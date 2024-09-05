@@ -59,7 +59,7 @@ function buttonEvents(button) {
     button.addEventListener("click", function() {
         field.placeholder = 'Edit your List';
         field.value = "";
-        inEditID = this.id;
+        inEditID = this.name;
         isEditing = true;
 
     });

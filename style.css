@@ -95,3 +95,13 @@ li {
     padding: 0;
     margin: 0;
 }
+
+#save {
+    font-family: "Gochi Hand", cursive;
+    border-radius: 7px;
+}
+
+#load {
+    font-family: "Gochi Hand", cursive;
+    border-radius: 7px;
+}

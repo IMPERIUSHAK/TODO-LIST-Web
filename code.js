@@ -107,7 +107,6 @@ const downloadJSON = (obj, name) => {
 }
 save.addEventListener('click', function() {
 
-    console.log(task);
     downloadJSON(task, 'tasks');
 
 });
@@ -124,6 +123,7 @@ load.addEventListener('click', function() {
             task = loadedTasks;
             num = task.length;
             parent.innerHTML = '';
+
             task.forEach((taskItem, index) => {
                 loadTask(taskItem, index);
             });
